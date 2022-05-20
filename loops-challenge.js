@@ -21,12 +21,12 @@ console.log(`\n2. function decreases from 100 in multiples of 3:\n`)
 decreaseBy3();
 
 // Print the sequence: 4, 2.5, 1, -0.5, -2, -3.5
-
-var myArray = [4, 2.5, 1, -0.5, -2, -3.5];
+// redo after seeing soluton did not want me to 
+// create an array but do a with a fractional countdown
 
 function printSeq() {
-    for (i = 0; i < myArray.length; i++) {
-        console.log(myArray[i]);
+    for (i = 4; i >= -4; i-=1.5) {
+        console.log(i);
     }
 }
 console.log(`\n3. function prints a sequence:\n`)
